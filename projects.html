@@ -1,0 +1,1768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Dashboard | Hando - Responsive Admin Dashboard Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc."/>
+        <meta name="author" content="Zoyothemes"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-style" />
+
+        <!-- Icons -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+
+        <script src="assets/js/head.js"></script>
+
+
+    </head>
+
+    <!-- body start -->
+    <body data-menu-color="light" data-sidebar="default">
+
+    <!-- Begin page -->
+    <div id="app-layout">
+
+
+        <!-- Topbar Start -->
+        <div class="topbar-custom">
+            <div class="container-fluid">
+                <div class="d-flex justify-content-between">
+                    <ul class="list-unstyled topnav-menu mb-0 d-flex align-items-center">
+                        <li>
+                            <button class="button-toggle-menu nav-link">
+                                <i data-feather="menu" class="noti-icon"></i>
+                            </button>
+                        </li>
+                        <li class="d-none d-lg-block">
+                            <h5 class="mb-0">Good Morning, Alex</h5>
+                        </li>
+                    </ul>
+
+                    <ul class="list-unstyled topnav-menu mb-0 d-flex align-items-center">
+                        <li class="d-none d-lg-block">
+                            <form class="app-search d-none d-md-block me-auto">
+                                <div class="position-relative topbar-search">
+                                    <input type="text" class="form-control ps-4" placeholder="Search..." />
+                                    <i class="mdi mdi-magnify fs-16 position-absolute text-muted top-50 translate-middle-y ms-2"></i>
+                                </div>
+                            </form>
+                        </li>
+
+                        <!-- Button Trigger Customizer Offcanvas -->
+                        <li class="d-none d-sm-flex">
+                            <button type="button" class="btn nav-link" data-toggle="fullscreen">
+                                <i data-feather="maximize" class="align-middle fullscreen noti-icon"></i>
+                            </button>
+                        </li>
+
+                        <!-- Light/Dark Mode Button Themes -->
+                        <li class="d-none d-sm-flex">
+                            <button type="button" class="btn nav-link" id="light-dark-mode">
+                                <i data-feather="moon" class="align-middle dark-mode"></i>
+                                <i data-feather="sun" class="align-middle light-mode"></i>
+                            </button>
+                        </li>
+
+                        <li class="dropdown notification-list topbar-dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <i data-feather="bell" class="noti-icon"></i>
+                                <span class="badge bg-danger rounded-circle noti-icon-badge">9</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end dropdown-lg">
+                                <!-- item-->
+                                <div class="dropdown-item noti-title">
+                                    <h5 class="m-0">
+                                        <span class="float-end"><a href="" class="text-dark"><small>Clear All</small></a></span>Notification
+                                    </h5>
+                                </div>
+
+                                <div class="noti-scroll" data-simplebar>
+                                    <!-- item-->
+                                    <a href="javascript:void(0);"
+                                        class="dropdown-item notify-item text-muted link-primary active">
+                                        <div class="notify-icon">
+                                            <img src="assets/images/users/user-12.jpg" class="img-fluid rounded-circle" alt="" />
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <p class="notify-details">Carl Steadham</p>
+                                            <small class="text-muted">5 min ago</small>
+                                        </div>
+                                        <p class="mb-0 user-msg">
+                                            <small class="fs-14">Completed <span class="text-reset">Improve workflow in Figma</span></small>
+                                        </p>
+                                    </a>
+
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary">
+                                        <div class="notify-icon">
+                                            <img src="assets/images/users/user-2.jpg" class="img-fluid rounded-circle" alt="" />
+                                        </div>
+                                        <div class="notify-content">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <p class="notify-details">Olivia McGuire</p>
+                                                <small class="text-muted">1 min ago</small>
+                                            </div>
+
+                                            <div class="d-flex mt-2 align-items-center">
+                                                <div class="notify-sub-icon">
+                                                    <i class="mdi mdi-download-box text-dark"></i>
+                                                </div>
+
+                                                <div>
+                                                    <p class="notify-details mb-0">dark-themes.zip</p>
+                                                    <small class="text-muted">2.4 MB</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary">
+                                        <div class="notify-icon">
+                                            <img src="assets/images/users/user-3.jpg" class="img-fluid rounded-circle" alt="" />
+                                        </div>
+                                        <div class="notify-content">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <p class="notify-details">Travis Williams</p>
+                                                <small class="text-muted">7 min ago</small>
+                                            </div>
+                                            <p class="noti-mentioned p-2 rounded-2 mb-0 mt-2">
+                                                <span class="text-primary">@Patryk</span> Please make sure that you're....
+                                            </p>
+                                        </div>
+                                    </a>
+
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary">
+                                        <div class="notify-icon">
+                                            <img src="assets/images/users/user-8.jpg" class="img-fluid rounded-circle" alt="" />
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <p class="notify-details">Violette Lasky</p>
+                                            <small class="text-muted">5 min ago</small>
+                                        </div>
+                                        <p class="mb-0 user-msg">
+                                            <small class="fs-14">Completed <span class="text-reset">Create new components</span></small>
+                                        </p>
+                                    </a>
+
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary">
+                                        <div class="notify-icon">
+                                            <img src="assets/images/users/user-5.jpg" class="img-fluid rounded-circle" alt="" />
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <p class="notify-details">Ralph Edwards</p>
+                                            <small class="text-muted">5 min ago</small>
+                                        </div>
+                                        <p class="mb-0 user-msg">
+                                            <small class="fs-14">Completed<span class="text-reset">Improve workflow in React</span></small>
+                                        </p>
+                                    </a>
+
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary">
+                                        <div class="notify-icon">
+                                            <img src="assets/images/users/user-6.jpg" class="img-fluid rounded-circle" alt="" />
+                                        </div>
+                                        <div class="notify-content">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <p class="notify-details">Jocab jones</p>
+                                                <small class="text-muted">7 min ago</small>
+                                            </div>
+                                            <p class="noti-mentioned p-2 rounded-2 mb-0 mt-2">
+                                                <span class="text-reset">@Patryk</span> Please make sure that you're....
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- All-->
+                                <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">View all
+                                    <i class="fe-arrow-right"></i>
+                                </a>
+                            </div>
+                        </li>
+
+                        <!-- User Dropdown -->
+                        <li class="dropdown notification-list topbar-dropdown">
+                            <a class="nav-link dropdown-toggle nav-user me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <img src="assets/images/users/user-13.jpg" alt="user-image" class="rounded-circle" />
+                                <span class="pro-user-name ms-1">Alex <i class="mdi mdi-chevron-down"></i></span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end profile-dropdown">
+                                <!-- item-->
+                                <div class="dropdown-header noti-title">
+                                    <h6 class="text-overflow m-0">Welcome !</h6>
+                                </div>
+
+                                <!-- item-->
+                                <a href="pages-profile.html" class="dropdown-item notify-item">
+                                    <i class="mdi mdi-account-circle-outline fs-16 align-middle"></i>
+                                    <span>My Account</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="auth-lock-screen.html" class="dropdown-item notify-item">
+                                    <i class="mdi mdi-lock-outline fs-16 align-middle"></i>
+                                    <span>Lock Screen</span>
+                                </a>
+
+                                <div class="dropdown-divider"></div>
+
+                                <!-- item-->
+                                <a href="auth-logout.html" class="dropdown-item notify-item">
+                                    <i class="mdi mdi-location-exit fs-16 align-middle"></i>
+                                    <span>Logout</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end Topbar -->
+
+        <!-- Left Sidebar Start -->
+        <div class="app-sidebar-menu">
+            <div class="h-100" data-simplebar>
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+
+                    <div class="logo-box">
+                        <a href="index.html" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="assets/images/logo-sm.png" alt="" height="22">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/logo-light.png" alt="" height="24">
+                            </span>
+                        </a>
+                        <a href="index.html" class="logo logo-dark">
+                            <span class="logo-sm">
+                                <img src="assets/images/logo-sm.png" alt="" height="22">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/logo-dark.png" alt="" height="24">
+                            </span>
+                        </a>
+                    </div>
+
+                    <ul id="side-menu">
+
+                        <li class="menu-title">Menu</li>
+
+                        <li>
+                            <a href="#sidebarDashboards" data-bs-toggle="collapse">
+                                <i data-feather="home"></i>
+                                <span> Dashboard </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <div class="collapse" id="sidebarDashboards">
+                                <ul class="nav-second-level">
+                                    <li>
+                                        <a href="index.html" class="tp-link">CRM</a>
+                                    </li>
+                                    <li>
+                                        <a href="analytics.html" class="tp-link">Analytics</a>
+                                    </li>
+                                    <li>
+                                        <a href="ecommerce.html" class="tp-link">eCommerce</a>
+                                    </li>
+                                    <li>
+                                        <a href="projects.html" class="tp-link">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="hrm.html" class="tp-link">HRM</a>
+                                    </li>
+                                    <li>
+                                        <a href="jobs.html" class="tp-link">Jobs</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="menu-title">Pages</li>
+
+                        <li>
+                            <a href="#sidebarAuth" data-bs-toggle="collapse">
+                                <i data-feather="users"></i>
+                                <span> Authentication </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <div class="collapse" id="sidebarAuth">
+                                <ul class="nav-second-level">
+                                    <li>
+                                        <a href="auth-login.html" class="tp-link">Log In</a>
+                                    </li>
+                                    <li>
+                                        <a href="auth-register.html" class="tp-link">Register</a>
+                                    </li>
+                                    <li>
+                                        <a href="auth-recoverpw.html" class="tp-link">Recover Password</a>
+                                    </li>
+                                    <li>
+                                        <a href="auth-lock-screen.html" class="tp-link">Lock Screen</a>
+                                    </li>
+                                    <li>
+                                        <a href="auth-confirm-mail.html" class="tp-link">Confirm Mail</a>
+                                    </li>
+                                    <li>
+                                        <a href="email-verification.html" class="tp-link">Email Verification</a>
+                                    </li>
+                                    <li>
+                                        <a href="auth-logout.html" class="tp-link">Logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#sidebarError" data-bs-toggle="collapse">
+                                <i data-feather="alert-octagon"></i>
+                                <span> Error Pages </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <div class="collapse" id="sidebarError">
+                                <ul class="nav-second-level">
+                                    <li>
+                                        <a href="error-404.html" class="tp-link">Error 404</a>
+                                    </li>
+                                    <li>
+                                        <a href="error-500.html" class="tp-link">Error 500</a>
+                                    </li>
+                                    <li>
+                                        <a href="error-503.html" class="tp-link">Error 503</a>
+                                    </li>
+                                    <li>
+                                        <a href="error-429.html" class="tp-link">Error 429</a>
+                                    </li>
+                                    <li>
+                                        <a href="offline-page.html" class="tp-link">Offline Page</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#sidebarExpages" data-bs-toggle="collapse">
+                                <i data-feather="file-text"></i>
+                                <span> Utility </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <div class="collapse" id="sidebarExpages">
+                                <ul class="nav-second-level">
+                                    <li>
+                                        <a href="pages-starter.html" class="tp-link">Starter</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages-profile.html" class="tp-link">Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages-pricing.html" class="tp-link">Pricing</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages-timeline.html" class="tp-link">Timeline</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages-invoice.html" class="tp-link">Invoice</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages-faqs.html" class="tp-link">FAQs</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages-gallery.html" class="tp-link">Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages-maintenance.html" class="tp-link">Maintenance</a>
+                                    </li>
+                                    <li>
+                                        <a href="pages-coming-soon.html" class="tp-link">Coming Soon</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="menu-title mt-2">Apps</li>
+                
+                        <li>
+                            <a href="apps-todolist.html" class="tp-link">
+                                <i data-feather="columns"></i>
+                                <span> Todo List </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="apps-contacts.html" class="tp-link">
+                                <i data-feather="map-pin"></i>
+                                <span> Contacts </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="apps-calendar.html" class="tp-link">
+                                <i data-feather="calendar"></i>
+                                <span> Calendar </span>
+                            </a>
+                        </li>
+
+                        <li class="menu-title mt-2">General</li>
+                
+                        <li>
+                            <a href="#sidebarBaseui" data-bs-toggle="collapse">
+                                <i data-feather="package"></i>
+                                <span> Components </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <div class="collapse" id="sidebarBaseui">
+                                <ul class="nav-second-level">
+                                    <li>
+                                        <a href="ui-accordions.html" class="tp-link">Accordions</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-alerts.html" class="tp-link">Alerts</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-badges.html" class="tp-link">Badges</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-breadcrumb.html" class="tp-link">Breadcrumb</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-buttons.html" class="tp-link">Buttons</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-cards.html" class="tp-link">Cards</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-collapse.html" class="tp-link">Collapse</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-dropdowns.html" class="tp-link">Dropdowns</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-video.html" class="tp-link">Embed Video</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-grid.html" class="tp-link">Grid</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-images.html" class="tp-link">Images</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-list.html" class="tp-link">List Group</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-modals.html" class="tp-link">Modals</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-placeholders.html" class="tp-link">Placeholders</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-pagination.html" class="tp-link">Pagination</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-popovers.html" class="tp-link">Popovers</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-progress.html" class="tp-link">Progress</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-scrollspy.html" class="tp-link">Scrollspy</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-spinners.html" class="tp-link">Spinners</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-tabs.html" class="tp-link">Tabs</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-tooltips.html" class="tp-link">Tooltips</a>
+                                    </li>
+                                    <li>
+                                        <a href="ui-typography.html" class="tp-link">Typography</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="widgets.html" class="tp-link">
+                                <i data-feather="aperture"></i>
+                                <span> Widgets </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#sidebarAdvancedUI" data-bs-toggle="collapse">
+                                <i data-feather="cpu"></i>
+                                <span> Extended UI </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <div class="collapse" id="sidebarAdvancedUI">
+                                <ul class="nav-second-level">
+                                    <li>
+                                        <a href="extended-carousel.html" class="tp-link">Carousel</a>
+                                    </li>
+                                    <li>
+                                        <a href="extended-notifications.html" class="tp-link">Notifications</a>
+                                    </li>
+                                    <li>
+                                        <a href="extended-offcanvas.html" class="tp-link">Offcanvas</a>
+                                    </li>
+                                    <li>
+                                        <a href="extended-range-slider.html" class="tp-link">Range Slider</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#sidebarIcons" data-bs-toggle="collapse">
+                                <i data-feather="award"></i>
+                                <span> Icons </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <div class="collapse" id="sidebarIcons">
+                                <ul class="nav-second-level">
+                                    <li>
+                                        <a href="icons-feather.html" class="tp-link">Feather Icons</a>
+                                    </li>
+                                    <li>
+                                        <a href="icons-mdi.html" class="tp-link">Material Design Icons</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#sidebarForms" data-bs-toggle="collapse">
+                                <i data-feather="briefcase"></i>
+                                <span> Forms </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <div class="collapse" id="sidebarForms">
+                                <ul class="nav-second-level">
+                                    <li>
+                                        <a href="forms-elements.html" class="tp-link">General Elements</a>
+                                    </li>
+                                    <li>
+                                        <a href="forms-validation.html" class="tp-link">Validation</a>
+                                    </li>
+                                    <li>
+                                        <a href="forms-quilljs.html" class="tp-link">Quilljs Editor</a>
+                                    </li>
+                                    <li>
+                                        <a href="forms-pickers.html" class="tp-link">Picker</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#sidebarTables" data-bs-toggle="collapse">
+                                <i data-feather="table"></i>
+                                <span> Tables </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <div class="collapse" id="sidebarTables">
+                                <ul class="nav-second-level">
+                                    <li>
+                                        <a href="tables-basic.html" class="tp-link">Basic Tables</a>
+                                    </li>
+                                    <li>
+                                        <a href="tables-datatables.html" class="tp-link">Data Tables</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#sidebarCharts" data-bs-toggle="collapse">
+                                <i data-feather="pie-chart"></i>
+                                <span> Apex Charts </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <div class="collapse" id="sidebarCharts">
+                                <ul class="nav-second-level">
+                                    <li>
+                                        <a href='charts-area.html' class="tp-link">Area</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-bar.html' class="tp-link">Bar</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-boxplot.html' class="tp-link">Boxplot</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-bubble.html' class="tp-link">Bubble</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-candlestick.html' class="tp-link">Candlestick</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-column.html' class="tp-link">Column</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-funnel.html' class="tp-link">Funnel</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-heatmap.html' class="tp-link">Heatmap</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-line.html' class="tp-link">Line</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-mixed.html' class="tp-link">Mixed</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-pie.html' class="tp-link">Pie</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-polararea.html' class="tp-link">Polar</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-radar.html' class="tp-link">Radar</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-radialbar.html' class="tp-link">Radialbar</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-rangearea.html' class="tp-link">Range Area</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-scatter.html' class="tp-link">Scatter</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-timeline.html' class="tp-link">Timeline</a>
+                                    </li>
+                                    <li>
+                                        <a href='charts-treemap.html' class="tp-link">Treemap</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#sidebarMaps" data-bs-toggle="collapse">
+                                <i data-feather="map"></i>
+                                <span> Maps </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <div class="collapse" id="sidebarMaps">
+                                <ul class="nav-second-level">
+                                    <li>
+                                        <a href="maps-google.html" class="tp-link">Google Maps</a>
+                                    </li>
+                                    <li>
+                                        <a href="maps-vector.html" class="tp-link">Vector Maps</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                    </ul>
+            
+                </div>
+                <!-- End Sidebar -->
+
+                <div class="clearfix"></div>
+
+            </div>
+        </div>
+        <!-- Left Sidebar End -->
+
+        <!-- ============================================================== -->
+        <!-- Start Page Content here -->
+        <!-- ============================================================== -->
+
+        <div class="content-page">
+            <div class="content">
+
+                <!-- Start Content-->
+                <div class="container-fluid">
+
+                    <div class="py-3 d-flex align-items-sm-center flex-sm-row flex-column">
+                        <div class="flex-grow-1">
+                            <h4 class="fs-18 fw-semibold m-0">Projects</h4>
+                        </div>
+                    </div>
+
+                    <!-- Start Row -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6 col-xl-3">
+                                    <div class="card overflow-hidden">
+                                        <div class="card-body">
+                                            <div class="widget-first">
+
+                                                <div class="d-flex align-items-center mb-1">
+                                                    <span
+                                                        class="avatar-md rounded-circle bg-gray d-flex justify-content-center align-items-center me-3">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                                                            viewBox="0 0 24 24">
+                                                            <path fill="#108dff" fill-rule="evenodd"
+                                                                d="M2.545 8.73C2 9.8 2 11.2 2 14s0 4.2.545 5.27a5 5 0 0 0 2.185 2.185C5.8 22 7.2 22 10 22h4c2.8 0 4.2 0 5.27-.545a5 5 0 0 0 2.185-2.185C22 18.2 22 16.8 22 14s0-4.2-.545-5.27a5 5 0 0 0-2.185-2.185C18.2 6 16.8 6 14 6h-4c-2.8 0-4.2 0-5.27.545A5 5 0 0 0 2.545 8.73M15.06 12.5a.75.75 0 0 0-1.12-1l-3.011 3.374l-.87-.974a.75.75 0 0 0-1.118 1l1.428 1.6a.75.75 0 0 0 1.119 0z"
+                                                                clip-rule="evenodd" />
+                                                            <path fill="#108dff"
+                                                                d="M12 2c4.713 0 7.07 0 8.535 1.464c.757.758 1.123 1.754 1.3 3.192V10H2.164V6.656c.176-1.438.541-2.434 1.299-3.192C4.928 2 7.285 2 11.999 2"
+                                                                opacity="0.5" />
+                                                        </svg>
+                                                    </span>
+
+                                                    <div>
+                                                        <p class="mb-2 text-dark fs-15 fw-medium">Total Project</p>
+                                                        <h3 class="mb-0 fs-22 text-dark me-3">5,786</h3>
+                                                    </div>
+                                                </div>
+
+                                                <div class="d-flex align-items-center mt-3 justify-content-between">
+                                                    <p class="mb-0 text-dark mt-1 fs-14 fw-medium">Project this month
+                                                    </p>
+                                                    <p class="text-muted mb-0 fs-13 d-flex flex-column">
+                                                        <span
+                                                            class="text-success px-2 py-1 bg-success-subtle rounded-4 me-2">+9.5%</span>
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-xl-3">
+                                    <div class="card overflow-hidden">
+                                        <div class="card-body">
+                                            <div class="widget-first">
+
+                                                <div class="d-flex align-items-center mb-1">
+
+                                                    <span
+                                                        class="avatar-md rounded-circle bg-gray d-flex justify-content-center align-items-center me-3">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                                                            viewBox="0 0 24 24">
+                                                            <path fill="#287F71"
+                                                                d="M4.979 9.685C2.993 8.891 2 8.494 2 8s.993-.89 2.979-1.685l2.808-1.123C9.773 4.397 10.767 4 12 4s2.227.397 4.213 1.192l2.808 1.123C21.007 7.109 22 7.506 22 8s-.993.89-2.979 1.685l-2.808 1.124C14.227 11.603 13.233 12 12 12s-2.227-.397-4.213-1.191z" />
+                                                            <path fill="#287F71" fill-rule="evenodd"
+                                                                d="M2 8c0 .494.993.89 2.979 1.685l2.808 1.124C9.773 11.603 10.767 12 12 12s2.227-.397 4.213-1.191l2.808-1.124C21.007 8.891 22 8.494 22 8s-.993-.89-2.979-1.685l-2.808-1.123C14.227 4.397 13.233 4 12 4s-2.227.397-4.213 1.192L4.98 6.315C2.993 7.109 2 7.506 2 8"
+                                                                clip-rule="evenodd" />
+                                                            <path fill="#287F71"
+                                                                d="m19.021 13.685l-2.808 1.124C14.227 15.603 13.233 16 12 16s-2.227-.397-4.213-1.191L4.98 13.685C2.993 12.891 2 12.493 2 12c0-.445.807-.812 2.42-1.461l3.141 1.256C9.411 12.535 10.572 13 12 13s2.59-.465 4.439-1.205l3.14-1.256C21.194 11.189 22 11.555 22 12c0 .493-.993.89-2.979 1.685" />
+                                                            <path fill="#287F71"
+                                                                d="m19.021 17.685l-2.808 1.123C14.227 19.603 13.233 20 12 20s-2.227-.397-4.213-1.192L4.98 17.685C2.993 16.89 2 16.493 2 16c0-.445.807-.812 2.42-1.461l3.141 1.256C9.411 16.535 10.572 17 12 17s2.59-.465 4.439-1.205l3.14-1.256c1.614.65 2.421 1.016 2.421 1.46c0 .494-.993.891-2.979 1.686" />
+                                                        </svg>
+                                                    </span>
+
+                                                    <div>
+                                                        <p class="mb-2 text-dark fs-15 fw-medium">Active Projects</p>
+                                                        <h3 class="mb-0 fs-22 text-dark me-3">4,205</h3>
+                                                    </div>
+                                                </div>
+
+                                                <div class="d-flex align-items-center mt-3 justify-content-between">
+                                                    <p class="mb-0 text-dark mt-1">Project this month</p>
+                                                    <p class="text-muted mb-0 fs-13 d-flex flex-column">
+                                                        <span
+                                                            class="text-success px-2 py-1 bg-success-subtle rounded-4 me-2">+6.5%</span>
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-xl-3">
+                                    <div class="card overflow-hidden">
+                                        <div class="card-body">
+                                            <div class="widget-first">
+
+                                                <div class="d-flex align-items-center mb-1">
+
+                                                    <span
+                                                        class="avatar-md rounded-circle bg-gray d-flex justify-content-center align-items-center me-3">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                                                            viewBox="0 0 24 24">
+                                                            <path fill="#E77636"
+                                                                d="M9.5 2A1.5 1.5 0 0 0 8 3.5v1A1.5 1.5 0 0 0 9.5 6h5A1.5 1.5 0 0 0 16 4.5v-1A1.5 1.5 0 0 0 14.5 2z" />
+                                                            <path fill="#E77636" fill-rule="evenodd"
+                                                                d="M6.5 4.037c-1.258.07-2.052.27-2.621.84C3 5.756 3 7.17 3 9.998v6c0 2.829 0 4.243.879 5.122c.878.878 2.293.878 5.121.878h6c2.828 0 4.243 0 5.121-.878c.879-.88.879-2.293.879-5.122v-6c0-2.828 0-4.242-.879-5.121c-.569-.57-1.363-.77-2.621-.84V4.5a3 3 0 0 1-3 3h-5a3 3 0 0 1-3-3zm9.012 8.511a.75.75 0 1 0-1.024-1.096l-3.774 3.522l-1.202-1.122a.75.75 0 0 0-1.024 1.096l1.715 1.6a.75.75 0 0 0 1.023 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+
+                                                    <div>
+                                                        <p class="mb-2 text-dark fs-15 fw-medium">Finished Projects</p>
+                                                        <h3 class="mb-0 fs-22 text-dark me-3">1,350</h3>
+                                                    </div>
+                                                </div>
+
+                                                <div class="d-flex align-items-center mt-3 justify-content-between">
+                                                    <p class="mb-0 text-dark mt-1">Project this month</p>
+                                                    <p class="text-muted mb-0 fs-13 d-flex flex-column">
+                                                        <span
+                                                            class="text-danger px-2 py-1 bg-danger-subtle rounded-4 me-2">-7.5%</span>
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-xl-3">
+                                    <div class="card overflow-hidden">
+                                        <div class="card-body">
+                                            <div class="widget-first">
+
+                                                <div class="d-flex align-items-center mb-1">
+
+                                                    <span
+                                                        class="avatar-md rounded-circle bg-gray d-flex justify-content-center align-items-center me-3">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                                                            viewBox="0 0 24 24">
+                                                            <path fill="#963b68" fill-rule="evenodd"
+                                                                d="M3 10.417c0-3.198 0-4.797.378-5.335c.377-.537 1.88-1.052 4.887-2.081l.573-.196C10.405 2.268 11.188 2 12 2s1.595.268 3.162.805l.573.196c3.007 1.029 4.51 1.544 4.887 2.081C21 5.62 21 7.22 21 10.417v1.574c0 5.638-4.239 8.375-6.899 9.536C13.38 21.842 13.02 22 12 22s-1.38-.158-2.101-.473C7.239 20.365 3 17.63 3 11.991zM14 9a2 2 0 1 1-4 0a2 2 0 0 1 4 0m-2 8c4 0 4-.895 4-2s-1.79-2-4-2s-4 .895-4 2s0 2 4 2"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+
+                                                    <div>
+                                                        <p class="mb-2 text-dark fs-15 fw-medium">Total Projects</p>
+                                                        <h3 class="mb-0 fs-22 text-dark me-3">7,235</h3>
+                                                    </div>
+                                                </div>
+
+                                                <div class="d-flex align-items-center mt-3 justify-content-between">
+                                                    <p class="mb-0 text-dark mt-1">Project this month</p>
+                                                    <p class="text-muted mb-0 fs-13 d-flex flex-column">
+                                                        <span
+                                                            class="text-success px-2 py-1 bg-success-subtle rounded-4 me-2">+12.5%</span>
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- End Start -->
+
+                    <!-- Start Project Statistics -->
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="d-flex align-items-center">
+                                        <h5 class="card-title mb-0">Project Statistics</h5>
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <div id="project-statistics" class="apex-charts"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="d-flex align-items-center">
+                                        <h5 class="card-title mb-0">To-Do List</h5>
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-unstyled task-list-tab mb-0">
+
+                                        <li>
+                                            <div class="d-flex mb-2 pb-1">
+                                                <div class="form-check  me-2">
+                                                    <input type="checkbox" class="form-check-input">
+                                                </div>
+                                                <div class="flex-fill w-100">
+                                                    <div class="d-flex align-items-start justify-content-between gap-1">
+                                                        <div>
+                                                            <h6 class="d-block fw-medium mb-1 text-dark fs-15">Design new marketing campaign</h6>
+                                                            <p class="text-muted mb-0 fs-13">November 29, 2024</p>
+                                                        </div>
+                                                        <button class="btn btn-light btn-sm border">Edit</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="d-flex mb-2 pb-1">
+                                                <div class="form-check me-2">
+                                                    <input type="checkbox" class="form-check-input" checked="">
+                                                </div>
+                                                <div class="flex-fill w-100">
+                                                    <div class="d-flex align-items-start justify-content-between gap-1">
+                                                        <div>
+                                                            <h6 class="d-block fw-medium mb-1 text-dark fs-15">Update website UI</h6>
+                                                            <p class="text-muted mb-0 fs-13">November 28, 2024</p>
+                                                        </div>
+                                                        <button class="btn btn-light btn-sm border">Edit</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="d-flex mb-2 pb-1">
+                                                <div class="form-check me-2">
+                                                    <input type="checkbox" class="form-check-input">
+                                                </div>
+                                                <div class="flex-fill w-100">
+                                                    <div class="d-flex align-items-start justify-content-between gap-1">
+                                                        <div>
+                                                            <h6 class="d-block fw-medium mb-1 text-dark fs-15">Up with vendor invoices</h6>
+                                                            <p class="text-muted mb-0 fs-13">December 1, 2024</p>
+                                                        </div>
+                                                        <button class="btn btn-light btn-sm border">Edit</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="d-flex mb-2 pb-1">
+                                                <div class="mb-3 form-check  me-2"> 
+                                                    <input type="checkbox" class="form-check-input" checked=""> 
+                                                </div>
+                                                <div class="flex-fill w-100">
+                                                    <div class="d-flex align-items-start justify-content-between gap-1">
+                                                        <div> 
+                                                            <h6 class="d-block fw-medium mb-1 text-dark fs-15">Sales Accounting</h6> 
+                                                            <p class="text-muted mb-0 fs-13">December 5, 2024</p>
+                                                        </div>
+                                                        <button class="btn btn-light btn-sm border">Edit</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="d-flex mb-2 pb-1">
+                                                <div class="mb-3 form-check  me-2"> 
+                                                    <input type="checkbox" class="form-check-input">
+                                                </div>
+                                                <div class="flex-fill w-100">
+                                                    <div class="d-flex align-items-start justify-content-between gap-1">
+                                                        <div> 
+                                                            <h6 class="d-block fw-medium mb-1 text-dark fs-15">Update User Database</h6>
+                                                            <p class="text-muted mb-0 fs-13">December 6, 2024</p>
+                                                        </div>
+                                                        <button class="btn btn-light btn-sm border">Edit</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                        <li>
+                                            <div class="d-flex mb-0 pb-0">
+                                                <div class="mb-3 form-check me-2"> 
+                                                    <input type="checkbox" class="form-check-input" checked="">
+                                                </div>
+                                                <div class="flex-fill w-100">
+                                                    <div class="d-flex align-items-start justify-content-between gap-1">
+                                                        <div> 
+                                                            <h6 class="d-block fw-medium mb-1 text-dark fs-15">Monthly sales report</h6>
+                                                            <p class="text-muted mb-0 fs-13">December 8, 2024</p>
+                                                        </div>
+
+                                                        <button class="btn btn-light btn-sm border">Edit</button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- End Project Statistics -->
+
+                    <!-- Start Project Categories, Project Statistics, Task Overview -->
+                    <div class="row">
+
+                        <div class="col-md-6 col-xl-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="d-flex align-items-center">
+                                        <h5 class="card-title mb-0">Project Categories</h5>
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="row align-items-center">
+
+                                        <div class="col align-items-center">
+                                            <div id="project-categories" class="apex-charts"></div>
+                                        </div>
+
+                                        <div class="col">
+                                            <div class="d-flex justify-content-between align-items-center p-1">
+                                                <div>
+                                                    <i class="mdi mdi-circle fs-12 align-middle me-1 text-success"></i>
+                                                    <span class="align-middle fw-semibold">UI Project</span>
+                                                </div>
+                                                <span class="fw-medium text-muted float-end">
+                                                    <i class="mdi mdi-arrow-up text-success align-middle fs-14 me-1"></i>
+                                                    12.48%
+                                                </span>
+                                            </div>
+
+                                            <div class="d-flex justify-content-between align-items-center p-1">
+                                                <div>
+                                                    <i class="mdi mdi-circle fs-12 align-middle me-1" style="color: #522c8f;"></i>
+                                                    <span class="align-middle fw-semibold">Web Projects</span>
+                                                </div>
+                                                <span class="fw-medium text-muted float-end">
+                                                    <i class="mdi mdi-arrow-up text-success align-middle fs-14 me-1"></i>
+                                                    15.23%
+                                                </span>
+                                            </div>
+
+                                            <div class="d-flex justify-content-between align-items-center p-1">
+                                                <div>
+                                                    <i class="mdi mdi-circle fs-12 align-middle me-1 text-warning"></i>
+                                                    <span class="align-middle fw-semibold">Mobile Project</span>
+                                                </div>
+                                                <span class="fw-medium text-muted float-end">
+                                                    <i class="mdi mdi-arrow-up text-success align-middle fs-14 me-1"></i>
+                                                    19.58%
+                                                </span>
+                                            </div>
+
+                                            <div class="d-flex justify-content-between align-items-center p-1">
+                                                <div>
+                                                    <i class="mdi mdi-circle fs-12 align-middle me-1"
+                                                        style="color: #01D4FF"></i>
+                                                    <span class="align-middle fw-semibold">Marketing Project</span>
+                                                </div>
+                                                <span class="fw-medium text-muted float-end">
+                                                    <i class="mdi mdi-arrow-up text-success align-middle fs-14 me-1"></i>
+                                                    14.15%
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="row row-cols-12 border border-dashed border-1 rounded-2 mt-2">
+                                        <div class="col">
+                                            <div class="p-2 border-end border-inline-end-dashed">
+                                                <p class="mb-1 text-muted text-start">Design Categories</p>
+                                                <div class="d-flex align-items-center mt-2 justify-content-between me-2">
+                                                    <h3 class="mb-0 fs-22 text-dark me-3">1,478</h3>
+                                                    <span class="text-primary fs-14"><i class="mdi mdi-trending-up fs-14"></i> 12.5%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+
+                                        <div class="col">
+                                            <div class="p-2 ps-0">
+                                                <p class="mb-1 text-muted text-start">Develop Categories</p>
+                                                <div class="d-flex align-items-center mt-2 justify-content-between">
+                                                    <h3 class="mb-0 fs-22 text-dark me-3">1,978</h3>
+                                                    <span class="text-primary fs-14"><i class="mdi mdi-trending-up fs-14"></i> 10%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-xl-5">
+                            <div class="card">
+
+                                <div class="card-header">
+                                    <div class="d-flex align-items-center">
+                                        <h5 class="card-title mb-0">Project Budget</h5>
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <div id="project_budget" class="apex-charts"></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xxl-3">
+                            <div class="card">
+
+                                <div class="card-header">
+                                    <div class="d-flex align-items-center">
+                                        <h5 class="card-title mb-0">Task Overview</h5>
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <ul class="list-group list-group-flush list-group-no-gutters">
+
+                                        <!-- List Item -->
+                                        <li class="list-group-item px-0 pt-0">
+                                            <div class="d-flex align-items-center gap-3">
+
+                                                <div class="flex-shrink-0">
+                                                    <!-- Avatar -->
+                                                    <div class="align-content-center text-center rounded-3">
+                                                        <span class="avatar rounded-3 avatar-sm bg-light d-flex align-items-center justify-content-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24"><path fill="#060707" fill-rule="evenodd" d="M10.512 4.43a.75.75 0 0 0-.081 1.058L16.012 12l-5.581 6.512a.75.75 0 1 0 1.138.976l6-7a.75.75 0 0 0 0-.976l-6-7a.75.75 0 0 0-1.057-.081" clip-rule="evenodd"/><path fill="#060707" d="M6.25 5a.75.75 0 0 1 1.32-.488l6 7a.75.75 0 0 1 0 .976l-6 7A.75.75 0 0 1 6.25 19z"/></svg>
+                                                        </span>
+                                                    </div>
+                                                    <!-- End Avatar -->
+                                                </div>
+
+                                                <div class="align-content-center">
+                                                    <h6 class="mb-1 text-dark fs-15">Google Ads</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <p class="fs-13 text-muted mb-0 text-nowrap text-truncate">Payment</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="ms-auto align-content-center text-end">
+                                                    <span class="h6 mb-0 fw-semibold text-danger">-$890</span>
+                                                    <span class="d-block text-muted fs-13">May 19, 2024</span>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                        <!-- End List Item -->
+
+                                        <!-- List Item -->
+                                        <li class="list-group-item px-0">
+                                            <div class="d-flex align-items-center gap-3">
+
+                                                <div class="flex-shrink-0">
+                                                    <!-- Avatar -->
+                                                    <div class="align-content-center text-center rounded-3">
+                                                        <span class="avatar rounded-3 avatar-sm bg-light d-flex align-items-center justify-content-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24"><path fill="#060707" fill-rule="evenodd" d="M23 12c0-1.035-.53-2.07-1.591-2.647L8.597 2.385C6.534 1.264 4 2.724 4 5.033V12z" clip-rule="evenodd"/><path fill="#060707" d="m8.597 21.615l12.812-6.968A2.99 2.99 0 0 0 23 12H4v6.967c0 2.31 2.534 3.769 4.597 2.648" opacity="0.5"/></svg>
+                                                        </span>
+                                                    </div>
+                                                    <!-- End Avatar -->
+                                                </div>
+
+                                                <div class="align-content-center">
+                                                    <h6 class="mb-1 text-dark fs-15">Digital Marketing</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <p class="fs-13 text-muted mb-0 text-nowrap text-truncate">Expense</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="ms-auto align-content-center text-end">
+                                                    <span class="h6 mb-0 fw-semibold text-danger">-$504</span>
+                                                    <span class="d-block text-muted fs-13">May 19, 2024</span>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                        <!-- End List Item -->
+
+                                        <!-- List Item -->
+                                        <li class="list-group-item px-0 pb-0">
+                                            <div class="d-flex align-items-center gap-3">
+
+                                                <div class="flex-shrink-0">
+                                                    <!-- Avatar -->
+                                                    <div class="align-content-center text-center rounded-3">
+                                                        <span class="avatar rounded-3 avatar-sm bg-light d-flex align-items-center justify-content-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24"><path fill="#060707" fill-rule="evenodd" d="M5.172 3.172C4 4.343 4 6.229 4 10v4c0 3.771 0 5.657 1.172 6.828S8.229 22 12 22s5.657 0 6.828-1.172S20 17.771 20 14v-4c0-3.771 0-5.657-1.172-6.828S15.771 2 12 2S6.343 2 5.172 3.172M9 4.25a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5zM12 19a2 2 0 1 0 0-4a2 2 0 0 0 0 4" clip-rule="evenodd"/></svg>
+                                                        </span>
+                                                    </div>
+                                                    <!-- End Avatar -->
+                                                </div>
+
+                                                <div class="align-content-center">
+                                                    <h6 class="mb-1 text-dark fs-15">Mobile Development</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <p class="fs-13 text-muted mb-0 text-nowrap text-truncate">Income</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="ms-auto align-content-center text-end">
+                                                    <span class="h6 mb-0 fw-semibold text-success">+$700</span>
+                                                    <span class="d-block text-muted fs-13">May 19, 2024</span>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                        <!-- End List Item -->
+
+                                        <!-- List Item -->
+                                        <li class="list-group-item px-0">
+                                            <div class="d-flex align-items-center gap-3">
+
+                                                <div class="flex-shrink-0">
+                                                    <!-- Avatar -->
+                                                    <div class="align-content-center text-center rounded-3">
+                                                        <span class="avatar rounded-3 avatar-sm bg-light d-flex align-items-center justify-content-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24"><g fill="#060707" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 11.75a.75.75 0 0 1 .75.75v.75h.75a.75.75 0 0 1 0 1.5h-.75v.75a.75.75 0 0 1-1.5 0v-.75h-.75a.75.75 0 0 1 0-1.5h.75v-.75a.75.75 0 0 1 .75-.75"/><path d="M11.948 1.25c-.899 0-1.648 0-2.242.08c-.628.084-1.195.27-1.65.725c-.456.456-.642 1.023-.726 1.65c-.08.595-.08 1.345-.08 2.243v.078c-2.021.066-3.235.302-4.078 1.146C2 8.343 2 10.229 2 14s0 5.657 1.172 6.828S6.229 22 10 22h4c3.771 0 5.657 0 6.828-1.172S22 17.771 22 14s0-5.657-1.172-6.828c-.843-.844-2.057-1.08-4.078-1.146v-.078c0-.898 0-1.648-.08-2.242c-.084-.628-.27-1.195-.726-1.65c-.455-.456-1.022-.642-1.65-.726c-.594-.08-1.344-.08-2.242-.08zm3.302 4.752V6c0-.964-.002-1.612-.066-2.095c-.063-.461-.17-.659-.3-.789s-.328-.237-.79-.3c-.482-.064-1.13-.066-2.094-.066s-1.612.002-2.095.067c-.461.062-.659.169-.789.3s-.237.327-.3.788C8.753 4.388 8.75 5.036 8.75 6v.002Q9.337 6 10 6h4q.662 0 1.25.002M16 14a4 4 0 1 1-8 0a4 4 0 0 1 8 0"/></g></svg>
+                                                        </span>
+                                                    </div>
+                                                    <!-- End Avatar -->
+                                                </div>
+
+                                                <div class="align-content-center">
+                                                    <h6 class="mb-1 text-dark fs-15">Health Track</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <p class="fs-13 text-muted mb-0 text-nowrap text-truncate">Payment</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="ms-auto align-content-center text-end">
+                                                    <span class="h6 mb-0 fw-semibold text-danger">+$700</span>
+                                                    <span class="d-block text-muted fs-13">May 19, 2024</span>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                        <!-- End List Item -->
+
+                                        <!-- List Item -->
+                                        <li class="list-group-item px-0">
+                                            <div class="d-flex align-items-center gap-3">
+
+                                                <div class="flex-shrink-0">
+                                                    <!-- Avatar -->
+                                                    <div class="align-content-center text-center rounded-3">
+                                                        <span class="avatar rounded-3 avatar-sm bg-light d-flex align-items-center justify-content-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24"><path fill="#060707" fill-rule="evenodd" d="M2.028 11.25A10 10 0 0 1 12 2c-.83 0-1.57.364-2.18.921c-.605.554-1.116 1.328-1.53 2.242c-.416.92-.74 1.996-.959 3.163a20 20 0 0 0-.318 2.924zm0 1.5h4.985c.036 1.002.143 1.988.318 2.924c.22 1.167.543 2.243.959 3.163c.414.914.925 1.688 1.53 2.242c.61.557 1.35.921 2.18.921c-5.27 0-9.589-4.077-9.972-9.25" clip-rule="evenodd"/><path fill="#060707" d="M12 3.395c-.275 0-.63.117-1.043.495c-.416.381-.833.978-1.201 1.791c-.366.808-.663 1.783-.867 2.873c-.16.858-.26 1.768-.296 2.696h6.814a18.5 18.5 0 0 0-.296-2.696c-.204-1.09-.5-2.065-.867-2.873c-.368-.813-.784-1.41-1.2-1.79c-.414-.379-.769-.496-1.044-.496M8.889 15.446c.204 1.09.501 2.065.867 2.873c.368.813.785 1.41 1.2 1.79c.414.379.77.496 1.044.496c.275 0 .63-.117 1.043-.495c.417-.381.833-.978 1.201-1.791c.366-.808.663-1.783.867-2.873c.161-.858.261-1.768.296-2.696H8.593c.035.928.135 1.838.296 2.696"/><path fill="#060707" d="M12 2c.831 0 1.57.364 2.18.921c.605.554 1.117 1.328 1.53 2.242c.417.92.74 1.996.959 3.163c.175.936.282 1.922.318 2.924h4.985A10 10 0 0 0 12 2m4.669 13.674c-.219 1.167-.542 2.243-.959 3.163c-.413.914-.925 1.688-1.53 2.242c-.61.557-1.349.921-2.18.921c5.27 0 9.589-4.077 9.972-9.25h-4.985a20 20 0 0 1-.318 2.924"/></svg>
+                                                        </span>
+                                                    </div>
+                                                    <!-- End Avatar -->
+                                                </div>
+
+                                                <div class="align-content-center">
+                                                    <h6 class="mb-1 text-dark fs-15">Web Development</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <p class="fs-13 text-muted mb-0 text-nowrap text-truncate">Income</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="ms-auto align-content-center text-end">
+                                                    <span class="h6 mb-0 fw-semibold text-success">+$700</span>
+                                                    <span class="d-block text-muted fs-13">May 19, 2024</span>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                        <!-- End List Item -->
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- End Project Categories, Project Statistics, Task Overview -->
+
+                    <!-- Start Projects Summary -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card overflow-hidden">
+                                <div class="card-header">
+                                    <div class="d-flex align-items-center">
+                                        <h5 class="card-title mb-0">Projects Summary</h5>
+                                    </div>
+                                </div>
+
+                                <div class="card-body p-0">
+                                    <div class="table-responsive">
+                                        <table class="table table-traffic mb-0">
+
+                                            <thead>
+                                                <tr>
+                                                    <th>No</th>
+                                                    <th>Project</th>
+                                                    <th>Tasks</th>
+                                                    <th>Progress</th>
+                                                    <th>Status</th>
+                                                    <th>Due Date</th>
+                                                    <th>Team</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+
+                                            <tr>
+                                                <td>
+                                                    <a href="javascript:void(0);" class="text-dark">1</a>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 fw-medium fs-14">Update the API</p>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 text-muted">101</p>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="progress progress-sm w-100 mt-0" role="progressbar"
+                                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                            <div class="progress-bar  bg-primary" style="width: 25%">
+                                                            </div>
+                                                        </div>
+                                                        <div class="ms-2">25%</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="badge bg-primary-subtle text-primary">In
+                                                        Progress</span>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 text-muted">14 November 2024</p>
+                                                </td>
+                                                <td class="">
+                                                    <div class="avatar-group avatar-list-stack">
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-12.jpg"
+                                                                alt="Dianna Smiley">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-2.jpg" alt="Ab Hadley">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-3.jpg" alt="Adolfo Hess">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-4.jpg"
+                                                                alt="Daniela Dewitt">
+                                                        </a>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <a aria-label="anchor"
+                                                        class="btn btn-icon btn-sm bg-primary-subtle me-1"
+                                                        data-bs-toggle="tooltip" data-bs-original-title="Edit">
+                                                        <i class="mdi mdi-pencil-outline fs-14 text-primary"></i>
+                                                    </a>
+                                                    <a aria-label="anchor" class="btn btn-icon btn-sm bg-danger-subtle"
+                                                        data-bs-toggle="tooltip" data-bs-original-title="Delete">
+                                                        <i class="mdi mdi-delete fs-14 text-danger"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <a href="javascript:void(0);" class="text-dark">2</a>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 fw-medium fs-14">Release v1.2-Beta</p>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 text-muted">124</p>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="progress progress-sm w-100 mt-0" role="progressbar"
+                                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                            <div class="progress-bar  bg-primary" style="width: 85%">
+                                                            </div>
+                                                        </div>
+                                                        <div class="ms-2">85%</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="badge bg-primary-subtle text-primary">In
+                                                        Progress</span>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 text-muted">16 November 2024</p>
+                                                </td>
+                                                <td class="">
+                                                    <div class="avatar-group avatar-list-stack">
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-12.jpg"
+                                                                alt="Dianna Smiley">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-2.jpg" alt="Ab Hadley">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-3.jpg" alt="Adolfo Hess">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-4.jpg"
+                                                                alt="Daniela Dewitt">
+                                                        </a>
+                                                    </div>
+                                                </td>
+
+                                                <td>
+                                                    <a aria-label="anchor"
+                                                        class="btn btn-icon btn-sm bg-primary-subtle me-1"
+                                                        data-bs-toggle="tooltip" data-bs-original-title="Edit">
+                                                        <i class="mdi mdi-pencil-outline fs-14 text-primary"></i>
+                                                    </a>
+                                                    <a aria-label="anchor" class="btn btn-icon btn-sm bg-danger-subtle"
+                                                        data-bs-toggle="tooltip" data-bs-original-title="Delete">
+                                                        <i class="mdi mdi-delete fs-14 text-danger"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <a href="javascript:void(0);" class="text-dark">3</a>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 fw-medium fs-14"> Landing Design </p>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 text-muted">74</p>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="progress progress-sm w-100 mt-0" role="progressbar"
+                                                            aria-valuenow="47" aria-valuemin="0" aria-valuemax="100">
+                                                            <div class="progress-bar  bg-primary" style="width: 47%">
+                                                            </div>
+                                                        </div>
+                                                        <div class="ms-2">47%</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="badge bg-primary-subtle text-primary">In
+                                                        Progress</span>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 text-muted">18 November 2024</p>
+                                                </td>
+                                                <td class="">
+                                                    <div class="avatar-group avatar-list-stack">
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-12.jpg"
+                                                                alt="Dianna Smiley">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-2.jpg" alt="Ab Hadley">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-3.jpg" alt="Adolfo Hess">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-4.jpg"
+                                                                alt="Daniela Dewitt">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <a aria-label="anchor"
+                                                        class="btn btn-icon btn-sm bg-primary-subtle me-1"
+                                                        data-bs-toggle="tooltip" data-bs-original-title="Edit">
+                                                        <i class="mdi mdi-pencil-outline fs-14 text-primary"></i>
+                                                    </a>
+                                                    <a aria-label="anchor" class="btn btn-icon btn-sm bg-danger-subtle"
+                                                        data-bs-toggle="tooltip" data-bs-original-title="Delete">
+                                                        <i class="mdi mdi-delete fs-14 text-danger"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <a href="javascript:void(0);" class="text-dark">4</a>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 fw-medium fs-14"> Designing New Template</p>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 text-muted">08</p>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="progress progress-sm w-100 mt-0" role="progressbar"
+                                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                                            <div class="progress-bar  bg-primary" style="width: 0%">
+                                                            </div>
+                                                        </div>
+                                                        <div class="ms-2">0%</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="badge bg-danger-subtle text-danger">Pending</span>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 text-muted">20 November 2024</p>
+                                                </td>
+                                                <td class="">
+                                                    <div class="avatar-group avatar-list-stack">
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-12.jpg"
+                                                                alt="Dianna Smiley">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-2.jpg" alt="Ab Hadley">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-3.jpg" alt="Adolfo Hess">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-4.jpg"
+                                                                alt="Daniela Dewitt">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <a aria-label="anchor"
+                                                        class="btn btn-icon btn-sm bg-primary-subtle me-1"
+                                                        data-bs-toggle="tooltip" data-bs-original-title="Edit">
+                                                        <i class="mdi mdi-pencil-outline fs-14 text-primary"></i>
+                                                    </a>
+                                                    <a aria-label="anchor" class="btn btn-icon btn-sm bg-danger-subtle"
+                                                        data-bs-toggle="tooltip" data-bs-original-title="Delete">
+                                                        <i class="mdi mdi-delete fs-14 text-danger"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <a href="javascript:void(0);" class="text-dark">5</a>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 fw-medium fs-14">Plan design offsite</p>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 text-muted">52</p>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="progress progress-sm w-100 mt-0" role="progressbar"
+                                                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                            <div class="progress-bar  bg-primary" style="width: 100%">
+                                                            </div>
+                                                        </div>
+                                                        <div class="ms-2">100%</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="badge bg-success-subtle text-success">Completed</span>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 text-muted">25 November 2024</p>
+                                                </td>
+                                                <td class="">
+                                                    <div class="avatar-group avatar-list-stack">
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-12.jpg"
+                                                                alt="Dianna Smiley">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-2.jpg" alt="Ab Hadley">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-3.jpg" alt="Adolfo Hess">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-4.jpg"
+                                                                alt="Daniela Dewitt">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <a aria-label="anchor"
+                                                        class="btn btn-icon btn-sm bg-primary-subtle me-1"
+                                                        data-bs-toggle="tooltip" data-bs-original-title="Edit">
+                                                        <i class="mdi mdi-pencil-outline fs-14 text-primary"></i>
+                                                    </a>
+                                                    <a aria-label="anchor" class="btn btn-icon btn-sm bg-danger-subtle"
+                                                        data-bs-toggle="tooltip" data-bs-original-title="Delete">
+                                                        <i class="mdi mdi-delete fs-14 text-danger"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <a href="javascript:void(0);" class="text-dark">6</a>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 fw-medium fs-14">Home Page</p>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 text-muted">45</p>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="progress progress-sm w-100 mt-0" role="progressbar"
+                                                            aria-valuenow="49" aria-valuemin="0" aria-valuemax="100">
+                                                            <div class="progress-bar  bg-primary" style="width: 49%">
+                                                            </div>
+                                                        </div>
+                                                        <div class="ms-2">49%</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="badge bg-primary-subtle text-primary">In
+                                                        Progress</span>
+                                                </td>
+                                                <td>
+                                                    <p class="mb-0 text-muted">11 December 2024</p>
+                                                </td>
+                                                <td class="">
+                                                    <div class="avatar-group avatar-list-stack">
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-12.jpg"
+                                                                alt="Dianna Smiley">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-2.jpg" alt="Ab Hadley">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-3.jpg" alt="Adolfo Hess">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img class="avatar-img avatar avatar-xs rounded-circle img-fluid"
+                                                                src="assets/images/users/user-4.jpg"
+                                                                alt="Daniela Dewitt">
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <a aria-label="anchor"
+                                                        class="btn btn-icon btn-sm bg-primary-subtle me-1"
+                                                        data-bs-toggle="tooltip" data-bs-original-title="Edit">
+                                                        <i class="mdi mdi-pencil-outline fs-14 text-primary"></i>
+                                                    </a>
+                                                    <a aria-label="anchor" class="btn btn-icon btn-sm bg-danger-subtle"
+                                                        data-bs-toggle="tooltip" data-bs-original-title="Delete">
+                                                        <i class="mdi mdi-delete fs-14 text-danger"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="card-footer py-0 border-top">
+                                    <div class="row align-items-center">
+                                        <div class="col-sm">
+                                            <div class="text-block text-center text-sm-start">
+                                                <span class="fw-medium">1 of 3</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-auto mt-3 mt-sm-0">
+                                            <div class="pagination gap-2 justify-content-center py-3 ps-0 pe-3">
+                                                <ul class="pagination mb-0">
+                                                    <li class="page-item disabled">
+                                                        <a class="page-link me-2 rounded-2" href="javascript:void(0);">
+                                                            Prev </a>
+                                                    </li>
+                                                    <li class="page-item active">
+                                                        <a class="page-link rounded-2 me-2" href="#" data-i="1"
+                                                            data-page="5">1</a>
+                                                    </li>
+                                                    <li class="page-item">
+                                                        <a class="page-link me-2 rounded-2" href="#" data-i="2"
+                                                            data-page="5">2</a>
+                                                    </li>
+                                                    <li class="page-item">
+                                                        <a class="page-link text-primary rounded-2"
+                                                            href="javascript:void(0);"> next </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Projects Summary -->
+
+                </div> <!-- container-fluid -->
+            </div> <!-- content -->
+
+            <!-- Footer Start -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col fs-13 text-muted text-center">
+                            &copy; <script>document.write(new Date().getFullYear())</script> - Made with <span class="mdi mdi-heart text-danger"></span> by <a href="#!" class="text-reset fw-semibold">Zoyothemes</a> 
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- end Footer -->
+
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page content -->
+        <!-- ============================================================== -->
+
+
+    </div>
+    <!-- END wrapper -->
+
+    <!-- Vendor -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+    <script src="assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
+    <script src="assets/libs/feather-icons/feather.min.js"></script>
+
+    <!-- Apexcharts JS -->
+    <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+
+    <!-- Widgets Init Js -->
+    <script src="assets/js/pages/projects-dashboard.init.js"></script>
+
+    <!-- App js-->
+    <script src="assets/js/app.js"></script>
+
+    </body>
+
+</html>
