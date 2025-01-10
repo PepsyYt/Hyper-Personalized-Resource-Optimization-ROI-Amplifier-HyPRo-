@@ -1,5 +1,6 @@
 # Hyper-Personalized-Resource-Optimization-ROI-Amplifier-HyPRo-
-![Animated Banner](https://your-image-url.com/banner.gif)
+![475eb095746151 5e9ecde695f7a](https://github.com/user-attachments/assets/74fe2082-6bcd-4cc6-aa17-33ffc27bec82)
+
 
 # 🚀 Team Hudson - Live Server
 
@@ -28,7 +29,7 @@ An **interactive and beautifully animated** web page that enhances user experien
 Clone the repository and open the project:
 
 ```sh
-git clone https://github.com/your-username/your-repo.git
+git clone [https://github.com/your-username/your-repo.git](https://github.com/PepsyYt/Hyper-Personalized-Resource-Optimization-ROI-Amplifier-HyPRo-.git)
 cd your-repo
 open index.html
 ```
@@ -60,8 +61,10 @@ The core animation is handled using **CSS keyframes**:
 ---
 
 ## 📸 Screenshots & GIFs
-![Project Screenshot](https://your-image-url.com/screenshot.png)  
-![Working Animation](https://your-image-url.com/animation.gif)
+!Project Screenshot  ![Screenshot 2025-01-10 230223](https://github.com/user-attachments/assets/6ab6b890-ee37-4b5f-acd4-374211608bac)
+
+!Working Animation   ![Screenshot 2025-01-10 230157](https://github.com/user-attachments/assets/2cc0885a-3d17-492e-9a81-4ec4c1e69b75)
+
 
 ---
 
