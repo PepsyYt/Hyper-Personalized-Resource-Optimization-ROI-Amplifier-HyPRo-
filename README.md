@@ -1,7 +1,7 @@
 # Hyper-Personalized-Resource-Optimization-ROI-Amplifier-HyPRo-
-![Animated Banner]([https://www.behance.net/gallery/95746151/WIJMOBIEL-GIF-ANIMATED-BANNERS/modules/553018201])
+![Animated Banner](https://your-image-url.com/banner.gif)
 
-# 🚀 My Animated Web Project
+# 🚀 Team Hudson - Live Server
 
 ![HTML](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -20,7 +20,7 @@ An **interactive and beautifully animated** web page that enhances user experien
 ---
 
 ## 🎬 Live Demo
-🔗 [View Project]([https://hypro.netlify.app/])
+🔗 [View Project](https://hypro.netlify.app/)
 
 ---
 
@@ -59,8 +59,9 @@ The core animation is handled using **CSS keyframes**:
 
 ---
 
-## 📸 Screenshots
-![Project Screenshot](https://your-image-url.com/screenshot.png)
+## 📸 Screenshots & GIFs
+![Project Screenshot](https://your-image-url.com/screenshot.png)  
+![Working Animation](https://your-image-url.com/animation.gif)
 
 ---
 
