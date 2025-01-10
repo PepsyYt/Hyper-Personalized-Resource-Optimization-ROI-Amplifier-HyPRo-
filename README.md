@@ -1,5 +1,5 @@
 # Hyper-Personalized-Resource-Optimization-ROI-Amplifier-HyPRo-
-![Animated Banner]((https://www.behance.net/gallery/95746151/WIJMOBIEL-GIF-ANIMATED-BANNERS/modules/553018201))
+![Animated Banner]([https://www.behance.net/gallery/95746151/WIJMOBIEL-GIF-ANIMATED-BANNERS/modules/553018201])
 
 # 🚀 My Animated Web Project
 
@@ -20,7 +20,7 @@ An **interactive and beautifully animated** web page that enhances user experien
 ---
 
 ## 🎬 Live Demo
-🔗 [View Project]((https://hypro.netlify.app/))
+🔗 [View Project]([https://hypro.netlify.app/])
 
 ---
 
