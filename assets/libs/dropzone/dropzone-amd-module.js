@@ -1490,8 +1490,8 @@ var REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE = (function () {
 var SPLIT_WORKS_WITH_OVERWRITTEN_EXEC = !fails(function () {
   // eslint-disable-next-line regexp/no-empty-group -- required for testing
   var re = /(?:)/;
-  var originalExec = re.exec;
-  re.exec = function () { return originalExec.apply(this, arguments); };
+  var originSidec = re.exec;
+  re.exec = function () { return originSidec.apply(this, arguments); };
   var result = 'ab'.split(re);
   return result.length !== 2 || result[0] !== 'a' || result[1] !== 'b';
 });

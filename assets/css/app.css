@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-Template Name: Hando - Responsive Bootstrap 5 Admin Dashboard
+Template Name: HyPro - Responsive Bootstrap 5 Admin Dashboard
 Author: Zoyothemes
 Version: 1.0.0
 Website: https://zoyothemes.com/
@@ -16724,17 +16724,17 @@ html[data-bs-theme=dark] .datatable-container thead, html[data-bs-theme=dark] .t
           margin-inline-end: 0.5rem;
 }
 
-.hando-main-sections {
+.HyPro-main-sections {
   flex-direction: row;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.hando-profile-main {
+.HyPro-profile-main {
   position: relative;
 }
-.hando-profile-main .sil-profile_main-pic-change {
+.HyPro-profile-main .sil-profile_main-pic-change {
   cursor: pointer;
   background-color: #108dff;
   border-radius: 50%;

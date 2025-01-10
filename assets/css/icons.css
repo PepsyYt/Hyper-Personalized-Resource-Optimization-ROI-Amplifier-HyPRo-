@@ -1,5 +1,5 @@
 /*
-Template Name: Hando - Responsive Bootstrap 5 Admin Dashboard
+Template Name: HyPro - Responsive Bootstrap 5 Admin Dashboard
 Author: Zoyothemes
 Version: 1.0.0
 Website: https://zoyothemes.com/
@@ -29883,7 +29883,7 @@ File: Icons Css File
 }
 
 .mdi-flip-h:before {
-  transform: scaleX(-1);
+  transform: scSid(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
 }

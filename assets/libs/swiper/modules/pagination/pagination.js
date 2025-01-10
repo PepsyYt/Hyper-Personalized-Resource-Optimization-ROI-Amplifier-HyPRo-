@@ -1,6 +1,6 @@
-import $ from '../../shared/dom.js';
 import classesToSelector from '../../shared/classes-to-selector.js';
 import createElementIfNotDefined from '../../shared/create-element-if-not-defined.js';
+import $ from '../../shared/dom.js';
 export default function Pagination({
   swiper,
   extendParams,
@@ -190,16 +190,16 @@ export default function Pagination({
       }
 
       const scale = (current + 1) / total;
-      let scaleX = 1;
+      let scSid = 1;
       let scaleY = 1;
 
       if (progressbarDirection === 'horizontal') {
-        scaleX = scale;
+        scSid = scale;
       } else {
         scaleY = scale;
       }
 
-      $el.find(classesToSelector(params.progressbarFillClass)).transform(`translate3d(0,0,0) scaleX(${scaleX}) scaleY(${scaleY})`).transition(swiper.params.speed);
+      $el.find(classesToSelector(params.progressbarFillClass)).transform(`translate3d(0,0,0) scSid(${scSid}) scaleY(${scaleY})`).transition(swiper.params.speed);
     }
 
     if (params.type === 'custom' && params.renderCustom) {
