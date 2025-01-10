@@ -1,5 +1,5 @@
 # Hyper-Personalized-Resource-Optimization-ROI-Amplifier-HyPRo-
-![Animated Banner](https://your-image-url.com/banner.gif)
+![Animated Banner]([https://your-image-url.com/banner.gif](https://github.com/PepsyYt/Hyper-Personalized-Resource-Optimization-ROI-Amplifier-HyPRo-/blob/main/475eb095746151.5e9ecde695f7a.gif))
 
 # 🚀 Team Hudson - Live Server
 
@@ -60,8 +60,8 @@ The core animation is handled using **CSS keyframes**:
 ---
 
 ## 📸 Screenshots & GIFs
-![Project Screenshot](https://your-image-url.com/screenshot.png)  
-![Working Animation](https://your-image-url.com/animation.gif)
+![Project Screenshot]([https://your-image-url.com/screenshot.png](https://github.com/PepsyYt/Hyper-Personalized-Resource-Optimization-ROI-Amplifier-HyPRo-/blob/main/Screenshot%202025-01-10%20230157.png))  
+![Working Animation]([https://your-image-url.com/animation.gif](https://github.com/PepsyYt/Hyper-Personalized-Resource-Optimization-ROI-Amplifier-HyPRo-/blob/main/Screenshot%202025-01-10%20230223.png))
 
 ---
 
