@@ -32,5 +32,5 @@
     "jquery": ">=1.5",
     "waypoints": ">=4.0"
   },
-  "demo": "http://ciromattia.github.io//jquery.counterup/demo/index.html"
+  "demo": "http://ciromattia.github.io//jquery.counterup/demo/Dashboard.html"
 }
