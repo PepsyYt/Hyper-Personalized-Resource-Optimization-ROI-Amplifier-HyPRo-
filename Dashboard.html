@@ -1265,20 +1265,23 @@
 
         <!-- App js-->
         <script src="assets/js/app.js"></script>
-        <script type="text/javascript">
-            (function(d, t) {
-                var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-                v.onload = function() {
-                  window.voiceflow.chat.load({
-                    verify: { projectID: '67812e488259b83ec49ae9cb' },
-                    url: 'https://general-runtime.voiceflow.com',
-                    versionID: 'production'
-                  });
-                }
-                v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-            })(document, 'script');
-          </script>
-
+        <!-- Voiceflow Chat Widget Code -->
+    <script type="text/javascript">
+        (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              window.voiceflow.chat.load({
+                verify: { projectID: 'VF.DM.678139d6c466fea18d039a63.szxSMTHaVR4fbjJF' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production'
+              });
+            };
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; 
+            v.type = "text/javascript"; 
+            s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
+  
     </body>
 
 </html>
