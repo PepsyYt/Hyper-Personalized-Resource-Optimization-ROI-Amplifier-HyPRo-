@@ -184,29 +184,29 @@
         <script src="assets/libs/feather-icons/feather.min.js"></script>
 
         <!-- App js-->
-        <script type="module">
-            // Import the functions you need from the SDKs you need
-            import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
-            import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
-            // TODO: Add SDKs for Firebase products that you want to use
-            // https://firebase.google.com/docs/web/setup#available-libraries
-          
-            // Your web app's Firebase configuration
-            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-            const firebaseConfig = {
-              apiKey: "AIzaSyB5gfTJ1i-ynzhIs9tG3-ygzOVhp8elxPI",
-              authDomain: "hypro-c37dd.firebaseapp.com",
-              projectId: "hypro-c37dd",
-              storageBucket: "hypro-c37dd.firebasestorage.app",
-              messagingSenderId: "226044571122",
-              appId: "1:226044571122:web:d3efe9a8e487480c99cf6b",
-              measurementId: "G-N354LPRS7W"
-            };
-          
-            // Initialize Firebase
-            const app = initializeApp(firebaseConfig);
-            const analytics = getAnalytics(app);
-          </script>
+          <!-- Firebase SDKs -->
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+    
+    const firebaseConfig = {
+        apiKey: "AIzaSyB5gfTJ1i-ynzhIs9tG3-ygzOVhp8elxPI",
+        authDomain: "hypro-c37dd.firebaseapp.com",
+        projectId: "hypro-c37dd",
+        storageBucket: "hypro-c37dd.firebasestorage.app",
+        messagingSenderId: "226044571122",
+        appId: "1:226044571122:web:d3efe9a8e487480c99cf6b",
+        measurementId: "G-N354LPRS7W"
+    };
+    
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</script>
+
+<!-- Your auth.js file -->
+<script type="module" src="assets/js/auth.js"></script>
         <script src="assets/js/app.js"></script>
         <script src="assets/js/auth.js"></script>
         
