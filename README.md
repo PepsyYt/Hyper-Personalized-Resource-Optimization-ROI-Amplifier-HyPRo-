@@ -12,7 +12,11 @@ An **interactive and beautifully animated** web page that enhances user experien
 
 ---
 
+## 📌 Why This Project?
+With increasing layoffs and skill gaps in the corporate world, organizations need a data-driven approach to **optimize workforce efficiency and upskilling strategies**. **HyPRo** helps HR and management teams **track training ROI, employee progress, and skill enhancement** in real time, enabling businesses to make **informed retention and upskilling decisions** rather than resorting to layoffs. 
 ## 🌟 Unique Selling Proposition (USP)
+
+---
 
 ✅ **Performance-Based Employee Incentivization** – Directly links performance metrics to personalized incentives, motivating employees by rewarding measurable outcomes, which enhances productivity, engagement, and retention.  
 
@@ -31,10 +35,6 @@ An **interactive and beautifully animated** web page that enhances user experien
 ✅ **User-Friendly Interface** – Designed for easy adoption with minimal training required, making the system intuitive and accessible.
 
 
----
-
-## 📌 Why This Project?
-With increasing layoffs and skill gaps in the corporate world, organizations need a data-driven approach to **optimize workforce efficiency and upskilling strategies**. **HyPRo** helps HR and management teams **track training ROI, employee progress, and skill enhancement** in real time, enabling businesses to make **informed retention and upskilling decisions** rather than resorting to layoffs. 
 
 ---
 
